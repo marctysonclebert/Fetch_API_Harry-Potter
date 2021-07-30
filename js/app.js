@@ -47,7 +47,7 @@ function displayCaracters(charactersArray) {
 
 async function getCaracters() {
 	try {
-		const response = await fetch("http://hp-api.herokuapp.com/api/characters");
+		const response = await fetch("https://hp-api.herokuapp.com/api/characters");
 		charactersTable = await response.json();
         displayCaracters(charactersTable);
 	} catch (error) {
