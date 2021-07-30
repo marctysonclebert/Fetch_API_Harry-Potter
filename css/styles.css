@@ -20,7 +20,7 @@ body{
     width: 100vw;
     min-height: 100vh;
     overflow-x: hidden;
-    background-color: #000021;
+    background-color: #000000;
 }
 
 img{
@@ -32,7 +32,7 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 95%;
     min-height: 90vh;
     margin: 0 auto;
 }
@@ -45,7 +45,7 @@ img{
     outline: none;
     border: none;
     padding: .2rem 1rem;
-    width: clamp(30rem, 70rem, 90%);
+    width: clamp(30rem, 100rem, 95%);
     background-color: #1b1b1b;
     border-bottom: .1rem solid #000021;
 }
@@ -53,8 +53,7 @@ img{
 .caracters{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: clamp(30rem, 70rem, 90%);
+    width: clamp(30rem, 100rem, 95%);
     padding: 1rem 0;
     background-color: #1b1b1b;
 }
@@ -62,32 +61,40 @@ img{
 .caracter{
     display: flex;
     justify-content: space-evenly;
-    width: 29rem;
-    margin: 1rem auto;
-    padding: .5rem 1rem;
-    background-color: #ffffff;
+    width: 25rem;
+    margin: .5rem auto;
+    padding: .5rem;
+    background-color: #30041f;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
 }
 
 .caracter-infos{
     text-align: center;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    width: 50%;
+    width: 70%;
     min-height: 100%;
 }
 
 .caracter-name{
-    color: #000021;
-    margin: 1.5rem;
+    font-size: 1.3rem;
+    color: #f7a610;
+    margin: 1rem;
 }
 
 .caracter-house{
-    color: #fc05c6;
+    color: #6fccf7;
 }
 
 .caracter-image{
-    width: 7.5rem;
-    height: 10rem;
+    width: 6rem;
+    height: 8rem;
 }
 
 .caracter-image img{

@@ -27,9 +27,9 @@ function displayCaracters(charactersArray) {
 			return `
             <li class="caracter">
             <div class="caracter-infos">
-                <h3 class="caracter-name">
+                <h1 class="caracter-name">
                     ${caracter.name}
-                </h3>
+                </h1>
                 <p class="caracter-house">
                     ${caracter.house}
                 </p>
